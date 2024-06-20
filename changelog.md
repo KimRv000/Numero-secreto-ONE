@@ -37,11 +37,13 @@ E Usuario ingresa un número del 1 al 10 mediante un prompt. Dicho número será
 El usuario tiene varios turnos hasta adivinar el número secreto,en cada intento se evalúa si el número del usuario en menor o mayos al número secreto. El usuario conoce el número de intentos que hizo.
 
 - Loop while que contiene la lógica principal del juego y que termina el juego hasta encontrar la respuesta correcta.
+- Condición que evalua que el número del usuario esté dentro del rango (1-10) permitido.
 - Condicionales que evalúan si el número del Usuario es menor o mayor al número secreto.
 - Alerts que indica al usuario si debe escoger un número mayor o menor al que eligió previamente.
 - Variables para los mensajes de alert.
 - Contador de intentos.
 - Alert que indicalos intentos y el número secreto adivinado por el usuario, utilizando template strings.
+
 
 ### Changed
 
