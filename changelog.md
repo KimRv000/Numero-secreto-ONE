@@ -78,6 +78,27 @@ El usuario solo tiene 5 intentos para poder adivinar el número secreto, en cada
 
 - Excluir el cero del rango aceptado.
 
+## <1.4.0> - <21-06-24>
+
+### Sprint learnings
+
+- isNan()
+
+### Added
+
+El usuario puede escoger el máximo del rango de los números a adivinar.
+
+- Variable de máximo del rango igualada a 10 por default
+- Variable del máximo del rango del Usuario por medio de un prompt.
+- Condicional para la asignación del máximo del rango.
+
+### Changed
+
+- Se cambió el número 10 por la variable de máximo del rango para el número secreto.
+- Se cambió el número 10 por la variable de máximo del rango en el prompt de la variable del número del usuario.
+- Se cambió el número 10 por la variable de máximo del rango en el rango permitido en el juego.
+
+
 
 
 
