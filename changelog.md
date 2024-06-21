@@ -44,8 +44,40 @@ El usuario tiene varios turnos hasta adivinar el número secreto,en cada intento
 - Contador de intentos.
 - Alert que indicalos intentos y el número secreto adivinado por el usuario, utilizando template strings.
 
-
 ### Changed
 
 - Condiciones en la lógica.
 - Mensajes de los Alerts.
+
+## <1.3.1> - <21-06-24>
+
+### Sprint learnings
+
+- Math.random()
+- Math.floor()
+- Operdor terciario
+
+### Added
+
+El usuario solo tiene 5 intentos para poder adivinar el número secreto, en cada turno se muestran los intentos restantes disponibles. El número secreto es asignado con un número random.
+
+- Número random dentro del rango 1 a 10 usando Math.floor() y Math.random().
+- Constante del máximo de intentos.
+- Conteo de intentos restantes en alert.
+- Condición que dispara un alert que avisa que se llegó al límite de intentos.
+- Operador terciario que devuelve la palabra "vez" o "veces" correctamente de acuerdo al número de intentos.
+
+### Changed
+
+- Asignación del número random.
+- Condición del loop while basado en el número de intentos.
+- Posición del contador de intentos dentro del loop.
+- Alert disparado al adivinar el número correcto.
+
+### Fixed
+
+- Excluir el cero del rango aceptado.
+
+
+
+
